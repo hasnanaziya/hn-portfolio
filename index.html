@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasna Naziya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="home">
+
+                <div class="profile_name">
+                     <b style="font-size: 25px;">Hasna Naziya</b>
+                    <div class="contact_info">
+                        <img src="images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+                        hasnaaa@gmaiil.com
+                    </div>
+
+                    <div style="clear:both;"></div>
+
+                    <div class="contact_info">
+                        <img src="images/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+                        +13805457989
+                    </div>
+                </div>
+
+                <div  class="topdiv">
+                    <a class="topmenu" href="#about-me"> About Me</a>
+                    <a class="topmenu" href="#skills">Skills</a>
+                    <a class="topmenu" href="#projects">Projects</a>
+                    <a class="topmenu" href="#recommendations">Recommendations</a>
+                </div>
+        </div>
+    </nav> 
+
+    <div id="all-content-items">
+
+        <section id="about-me" class="container">
+            <div id="about">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" class="profile_image" alt="Professional">
+            </div>
+                <div>
+                    <h1>Hi, I'm Hasna Naziya <img src="images/waving-hand.png" width="60px"/></h1>
+                    <p>
+                        I possess 2 years of experience crafting user-centric interfaces and interactive web experiences. I'm proficient in 
+                        building responsive websites and applications utilizing HTML, CSS, and JavaScript frameworks like React or Angular. 
+                         I have experience working on projects deployed across various cloud platforms.
+                    </p>
+                </div>
+            
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div style="clear:both;"></div>
+
+            <div class="all_skills">         
+                <div class="skill">
+                    <img src="images/html5.png"/>
+                    <h6>HTML</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="images/js.jpeg"/>
+                    <h6>JavaScript</h6>
+                    <p>1.5 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="images/java.png"/>
+                    <h6>Java</h6>
+                    <p>0.5years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="images/react.png"/>
+                    <h6>React</h6>
+                    <p>1 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="images/node.png"/>
+                    <h6>Node.js</h6>
+                    <p>1 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="images/CSS3.png"/>
+                    <h6>CSS</h6>
+                    <p>2 years experience</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2> Projects</h2>
+            <div style="clear:both;"></div>
+
+            <div id="projects-container" class="projects-container">
+                <div class="project-card">
+                    <h3>Social media tracker</h3>
+                    <ul>
+                        <li>Analyze brand mentions and sentiment on social media using Python</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project-card">
+                    <h3>Voice controlled home assistant</h3>
+                    <ul>
+                        <li>Control smart home devices with voice commands similar to Alexa using Raspberry Pi</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project-card">
+                    <h3>AI tutor</h3>
+                    <ul>
+                        <li>Personalized tutoring system that adapts to student learning. Helpmed school and college students to have a deep understanding of Machine Learning Concepts</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div style="clear: both;"></div>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div style="clear: both;"></div>
+
+            <div class="all_recommendations" id="all_recommendations">
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Hasna is a coding whiz who picks up new web development skills with impressive
+                     speed. Her enthusiasm and collaborative spirit are infectious, making her a 
+                     joy to work with.  Hasna's insatiable curiosity fuels her insightful questions,
+                      and her willingness to take initiative positions her as a future team leader.          
+                    <span>&#8221;</span>
+                </div>
+                
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Hasna is a fast learner who readily comprehends core web development principles.  
+                    She possesses a positive attitude and excels in collaborative environments.  
+                    Hasna's inquisitive nature leads her to ask insightful questions, and she 
+                    demonstrates initiative within the team, showcasing leadership potential.
+                    <span>&#8221;</span>
+                </div>
+
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Hasna's a web development sponge, absorbing knowledge quickly.  Her upbeat attitude 
+                    and teamwork skills make her a valuable asset.  Hasna's a natural questioner, prompting 
+                    insightful discussions.  Her proactive approach and leadership qualities make her a team
+                     player to watch.
+                    <span>&#8221;</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Recommendation form-->
+        <section id="contact">
+            <div class="flex_center">
+                <fieldset>
+                    <legend class="introduction">Leave a Recommendation </legend>
+                    <input type="text" placeholder="Name (Optional)"> <br/>
+                    <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                    <div class="flex-center">
+                        <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+
+        <div class="iconbutton">
+            <a href="#home">
+                <!-- <img src="images/home.png" /> -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="popup" id="popup" class="flex_center">
+            <img src="images/checkmark--outline.svg"/>
+            <h3>Your recommendation has been submitted. Thank You!</h3>
+            <button onclick="showPopup(false)">Ok</button>
+        </div>
+
+    </div>
+</body>
+</html>
